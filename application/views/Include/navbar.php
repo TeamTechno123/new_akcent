@@ -122,6 +122,26 @@
           </ul>
         </li>
 
+        <li class="nav-item has-treeview">
+          <a href="#" class="nav-link head">
+            <i class="nav-icon fas fa-list"></i>
+            <p>
+              Transaction
+              <i class="right fas fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview" style="display: none;">
+            <li class="nav-item">
+              <a <?php if(isset($update_amc_contract)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Transaction/amc_contract" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>AMC Contract Info</p>
+              </a>
+            </li>
+
+
+          </ul>
+        </li>
+
       </nav>
     <!-- /.sidebar-menu -->
     </div>

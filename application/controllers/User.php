@@ -54,19 +54,19 @@ class User extends CI_Controller{
     if($coach_user_id == '' && $coach_company_id == ''){ header('location:'.base_url().'User'); }
     $company_id = '';
 
-    $data['medium_cnt'] = $this->Master_Model->get_count('medium_id', $company_id,'','','','','','','medium');
-    $data['class_cnt'] = $this->Master_Model->get_count('class_id', $company_id,'','','','','','','class');
-    $data['batch_cnt'] = $this->Master_Model->get_count('batch_id', $company_id,'','','','','','','batch');
-    $data['student_cnt'] = $this->Master_Model->get_count('student_id', $company_id,'','','','','','','student');
-    $data['subject_cnt'] = $this->Master_Model->get_count('subject_id', $company_id,'','','','','','','subject');
-    $data['topic_cnt'] = $this->Master_Model->get_count('topic_id', $company_id,'','','','','','','topic');
-    $data['download_content_cnt'] = $this->Master_Model->get_count('download_content_id', $company_id,'','','','','','','download_content');
-    $data['receipt_cnt'] = $this->Master_Model->get_count('receipt_id', $company_id,'','','','','','','receipt');
+    // $data['medium_cnt'] = $this->Master_Model->get_count('medium_id', $company_id,'','','','','','','medium');
+    // $data['class_cnt'] = $this->Master_Model->get_count('class_id', $company_id,'','','','','','','class');
+    // $data['batch_cnt'] = $this->Master_Model->get_count('batch_id', $company_id,'','','','','','','batch');
+    // $data['student_cnt'] = $this->Master_Model->get_count('student_id', $company_id,'','','','','','','student');
+    // $data['subject_cnt'] = $this->Master_Model->get_count('subject_id', $company_id,'','','','','','','subject');
+    // $data['topic_cnt'] = $this->Master_Model->get_count('topic_id', $company_id,'','','','','','','topic');
+    // $data['download_content_cnt'] = $this->Master_Model->get_count('download_content_id', $company_id,'','','','','','','download_content');
+    // $data['receipt_cnt'] = $this->Master_Model->get_count('receipt_id', $company_id,'','','','','','','receipt');
 
-    $this->load->view('Include/head', $data);
-    $this->load->view('Include/navbar', $data);
-    $this->load->view('User/dashboard', $data);
-    $this->load->view('Include/footer', $data);
+    $this->load->view('Include/head');
+    $this->load->view('Include/navbar');
+    $this->load->view('User/dashboard');
+    $this->load->view('Include/footer');
   }
 
 /**************************      Company Information      ********************************/

@@ -13,10 +13,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     // }
 
     public function engineer(){
-      $col_user_id = $this->session->userdata('col_user_id');
-      $col_company_id = $this->session->userdata('col_company_id');
-      $col_role_id = $this->session->userdata('col_role_id');
-      if($col_user_id == '' && $col_company_id == ''){ header('location:'.base_url().'User'); }
+      // $col_user_id = $this->session->userdata('col_user_id');
+      // $col_company_id = $this->session->userdata('col_company_id');
+      // $col_role_id = $this->session->userdata('col_role_id');
+      // if($col_user_id == '' && $col_company_id == ''){ header('location:'.base_url().'User'); }
 
       $this->load->view('Include/head');
       $this->load->view('Include/navbar');
