@@ -118,6 +118,62 @@
               </a>
             </li>
 
+            <li class="nav-item">
+              <a <?php if(isset($update_item_company)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Master/item_company" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Item Company</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a <?php if(isset($update_equipment_type)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Master/equipment_type" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Equipment Type</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a <?php if(isset($update_item_information)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Master/item_information" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Item Information</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a <?php if(isset($update_tax_slab)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Master/tax_slab" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Tax Slab Information</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a <?php if(isset($update_unit)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Master/unit" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Unit Information</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a <?php if(isset($update_amc_type)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Master/amc_type" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>AMC Type Information</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a <?php if(isset($update_problem_info)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Master/problem_info" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Problem Information</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a <?php if(isset($update_rectification_info)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Master/rectification_info" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Problem Rectification Info</p>
+              </a>
+            </li>
+
 
           </ul>
         </li>
@@ -138,6 +194,47 @@
               </a>
             </li>
 
+            <li class="nav-item">
+              <a <?php if(isset($update_machine_details)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Transaction/machine_details" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Machine Details</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a <?php if(isset($update_partywise_info)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Transaction/partywise_info" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Party Wise Info</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a <?php if(isset($update_ticket)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Transaction/ticket" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Ticket Information</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a <?php if(isset($update_call_visit)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Transaction/call_visit" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Call Visit Information</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a <?php if(isset($update_sale_invoice)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Transaction/sale_invoice" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Sale Invoice</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a <?php if(isset($update_receipt)){ echo 'href="'.$act_link.'"'; } else{ ?> href="<?php echo base_url(); ?>Transaction/receipt" <?php } ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Receipt Information</p>
+              </a>
+            </li>
 
           </ul>
         </li>
