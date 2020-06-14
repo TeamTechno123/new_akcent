@@ -31,7 +31,7 @@
   <a href="#" class="brand-link">
     <img src="dist/img/AdminLTELogo.png" alt="" class="brand-image img-circle elevation-3"
          style="opacity: .8">
-    <span class="brand-text font-weight-light"><?php echo $company_info[0]['company_name']; ?></span>
+    <span class="brand-text font-weight-light"></span>
   </a>
   <!-- Sidebar -->
   <div class="sidebar">
@@ -41,7 +41,7 @@
         <!-- <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image"> -->
       </div>
       <div class="info">
-        <a href="#" class="d-block"><?php echo $user_info[0]['user_name']; ?></a>
+        <a href="#" class="d-block"></a>
       </div>
     </div>
     <!-- Sidebar Menu -->
@@ -180,7 +180,7 @@
 
         <li class="nav-item has-treeview">
           <a href="#" class="nav-link head">
-            <i class="nav-icon fas fa-list"></i>
+          <i class="nav-icon far fa-plus-square"></i>
             <p>
               Transaction
               <i class="right fas fa-angle-left"></i>
@@ -235,6 +235,107 @@
                 <p>Receipt Information</p>
               </a>
             </li>
+
+          </ul>
+        </li>
+
+
+        <li class="nav-item has-treeview">
+          <a href="#" class="nav-link head">
+            <i class="nav-icon far fa-envelope"></i>
+            <p>
+               Report
+              <i class="right fas fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview" style="display: none;">
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>Report/party_info_report" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Party Information</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>Report/item_company_report" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Item Company</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>Report/equipment_type_report" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Equipment Type</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>Report/item_info_report" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Item Information</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>Report/problem_info_report" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Problem Information</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>Report/rectification_report" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Problem Rectification</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>Report/amc_contract_report" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>AMC Contract</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>Report/machine_report" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Machine Details </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>Report/partywise_report" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Party Wise  Information</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>Report/ticket_report" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Ticket</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>Report/call_visit_report" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Call Visit</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>Report/sale_report" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Sale Invoice</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>Report/receipt_report" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Receipt</p>
+              </a>
+            </li>
+
 
           </ul>
         </li>
